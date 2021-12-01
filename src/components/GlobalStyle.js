@@ -14,6 +14,7 @@ html{
     &::-webkit-scrollbar-thumb{
         background-color: darkgrey;
     }
+   
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -28,7 +29,7 @@ body{
  h3{
      font-size: 1.3rem;
      color: #333;
-     padding: 1.2rem;
+     padding: 1.2rem 0rem;
      width: 100%;
  }
  p{
@@ -38,6 +39,9 @@ body{
  }a{
      text-decoration: none;
      color: #333;
+ }
+ img{
+     display: block;
  }
 `;
 
