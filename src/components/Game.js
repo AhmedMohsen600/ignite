@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { loadDetail } from "../action/detailAction";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { resizeImage } from "../util";
+
 const Game = ({ name, image, id, released }) => {
   const dispatch = useDispatch();
   // const screenshotData = useSelector((state) => state.detail.screen);
